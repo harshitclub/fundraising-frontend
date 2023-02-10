@@ -1,0 +1,28 @@
+.gallery-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.g-img {
+  width: 30%;
+}
+
+.g-img img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.g-img img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}

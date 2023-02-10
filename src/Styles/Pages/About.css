@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+.about-container {
+    margin: 0 0 2rem 0;
+}
+
+
+.about-h{
+    background-color: var(--main);
+    padding: 1rem 0 1rem 0;
+    margin: -1rem 0 0 0;
+}
+
+.about-banner{
+    position: relative;
+    padding: 10rem 0 25rem 0;
+
+  /* extra style to center the content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-banner:before {
+    content: "";
+    background-image: url('../../assets/aboutImg.png');
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /* opacity: -.8; */
+  }
+
+.about-banner h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Shippori Antique', sans-serif;
+    /* background-color: var(--main); */
+    color: white;
+    margin: 5rem 0 0 0;
+    /* padding: 0.2rem 0.5rem 0.2rem 0.5rem; */
+    /* border-radius: 0.2rem; */
+}
+
+.about-banner h3 span{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.about-h h2{
+    color: var(--white);
+    text-align: center;
+}
+
+.about-details{
+    /* margin: 1rem 0 0 0; */
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+}
+
+.about-details .content-about{
+    /* margin: 2rem 20rem 2rem 4rem; */
+    text-align: justify;
+    color: var(--grey);
+    width: 50%;
+    padding: 1rem 0 0 0;
+}
+
+.about-form{
+    padding: 2rem 0 2rem 0;
+}
+
+.a-form h2{
+    text-align: center;
+    font-size: 1.5rem;
+    /* margin: 1rem 0 1rem 0; */
+    color: var(--main);
+}
+
+input[type=file]::file-selector-button{
+    font-size: 0.8rem;
+    border: none;
+    background-color: var(--main);
+    color: var(--white);
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.a-input{
+    font-size: 1rem;
+    padding: 0.8rem 0.5rem 0.5rem 0.8rem;
+    margin: 1rem 0 0 0;
+    box-shadow: rgba(9, 30, 66, 0.20) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    outline: none;
+    border: none;
+    width: 25rem;
+}
+
+.a-label {
+    font-size: 1rem;
+    display: block;
+    margin: 2rem 0 -2rem 0;
+    color: var(--grey);
+}
+
+.a-submit{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 2rem 0 0 0;
+    width: 25rem;
+    border: none;
+    cursor: pointer;
+    color: var(--main);
+    background-color: var(--main);
+    color: var(--white);
+    box-shadow: rgba(9, 30, 66, 0.20) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}

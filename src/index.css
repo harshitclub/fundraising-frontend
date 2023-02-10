@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection{
+  background: var(--main);
+  color: white;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+:root {
+  --main: #7C122F;
+  --white: #fff;
+  --black: #000;
+  --grey: 	#202020;
+  --bgrey: 	#F5F5F5;
+  --fgrey: 	#F5F5F5;
+}

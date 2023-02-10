@@ -1,0 +1,26 @@
+.faqContainer {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.faq-container {
+  margin: 3rem 0 3rem 0;
+  width: 90%;
+}
+
+.faq-row-wrapper .faq-body .faq-heading {
+  font-size: 5rem;
+}
+.faq-row-wrapper .faq-body .faq-row .row-title {
+  color: black;
+  font-size: 0.8rem;
+}
+.faq-row-wrapper .faq-body .faq-row .row-content .row-content-text {
+  color: var(--grey);
+  font-size: 0.8rem;
+  width: 60rem;
+  text-align: justify;
+}

@@ -1,0 +1,39 @@
+.categories-container {
+    margin: 8rem 0 2rem 0;
+    padding: 1rem 0 5rem 0;
+    background-color: var(--bgrey);
+}
+
+.categories-container h3{
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    font-size: 1.5rem;
+}
+
+.categories-container .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-container .category .c-content {
+    width: 10rem;
+    height: 8rem;
+    /* border: 1px solid black; */
+    margin: 0 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.9) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: var(--white);
+    color: var(--grey);
+}
+
+.categories-container .category .c-content:hover{
+    color: var(--white);
+    background-color: var(--main);
+    transition: 0.3s;
+}

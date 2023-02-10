@@ -1,0 +1,95 @@
+.donation-container {
+  margin: 8rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.donation-container .box-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.donation-container .box-container .tab-f {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.donation-container .donation {
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.55) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.9) 0px 0px 0px 1px inset;
+  border-radius: 0.9rem;
+}
+
+.donation-container .d-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-container .donation img {
+  width: 18rem;
+  height: 15rem;
+}
+
+.donation-container .donation .d-content {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.donation-container .donation .p-1 {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: var(--grey);
+}
+.donation-container .donation .p-2 {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 10rem 0 0;
+  margin-bottom: 1rem;
+  color: var(--white);
+  background-color: var(--main);
+  border-radius: 0.2rem;
+}
+
+.donation-container .donation .d-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.donation-container .donation .d-div .p-3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--main);
+}
+
+.donation-container .donation .d-div .p-5 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--main);
+}
+
+.donation-container .donation .p-8 {
+  margin-top: 1rem;
+}
+
+.donation-container .donation .d-line {
+  width: 16rem;
+}
+
+.donation-container .donation .p-7 {
+  margin-top: 1.8rem;
+  color: var(--grey);
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 220px) and (max-width: 600px) {
+  .donation-container .d-inner-container {
+    flex-direction: column;
+  }
+}
